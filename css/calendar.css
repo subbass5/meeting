@@ -1,0 +1,16 @@
+
+ th,td{width:50px;height: 30px; text-align:left;}
+ th{background-color: #eeeeee;}
+ #tb_calendar, #main{ width : 600px; height: 600px;}
+ #main{ border : 2px solid #46A5E0;}
+ #nav{
+  background-color: #0C79A4;
+  min-height: 20px;
+  padding: 10px;
+  text-align: center;
+  color : white;
+ }
+ .navLeft{float: left; }
+ .navRight{float: right;}
+ .title{float: left; text-align: center; width: 600px;}
+ 

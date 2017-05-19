@@ -1,0 +1,26 @@
+.scroll {
+    width: 100%;
+    height: 600px;
+    overflow-y: scroll;
+
+
+    margin: 30px;
+    border: 0px solid #FFFFFF;
+
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    -webkit-overflow-scrolling: touch;
+    padding: 20px;
+}
+
+::-webkit-scrollbar {
+    background: lighten(#21BB9A, 45);
+    border-radius: 4px;
+    height: 8px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #21BB9A;
+    border-radius: 4px;
+}
